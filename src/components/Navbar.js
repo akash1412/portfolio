@@ -4,6 +4,8 @@ const Navbar = () => {
 	return (
 		<Box
 			width='100%'
+			// position='fixed'
+			zIndex='10'
 			h='7rem'
 			bgColor='#000'
 			color='#fff'

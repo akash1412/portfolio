@@ -6,8 +6,8 @@ import "../index.css";
 
 const Contact = () => {
 	return (
-		<Box textAlign='center' py='2rem'>
-			<Heading as='h1' color='primaryDark'>
+		<Box id='contact-section' textAlign='center' py='2rem'>
+			<Heading as='h1' fontSize='2.2rem' color='primaryDark'>
 				CONTACT ME
 			</Heading>
 			<Heading

@@ -2,14 +2,19 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 
 const About = () => {
 	return (
-		<Box px='.5rem' d='flex' flexDir='column' alignItems='center'>
+		<Box
+			id='about-section'
+			px='.5rem'
+			d='flex'
+			flexDir='column'
+			alignItems='center'>
 			<Box mb='3rem' textAlign='center'>
-				<Heading as='h1' fontSize='3rem' color='primaryDark'>
+				<Heading as='h1' fontSize='2.2rem' color='primaryDark'>
 					About Me
 				</Heading>
 				<Heading
 					as='h4'
-					fontSize='1.8rem'
+					fontSize='1.5rem'
 					mt='1rem'
 					color='text'
 					fontStyle='italic'>
@@ -18,7 +23,7 @@ const About = () => {
 				</Heading>
 			</Box>
 
-			<Box fontSize='1.8rem' color='text' textAlign='center'>
+			<Box fontSize='1.5rem' color='text' textAlign='center'>
 				<Text my='1.5rem'>
 					I'm <span className='title'>Akash</span>, a 21 years old self-taught
 					Front-end developer,from Odisha India.
