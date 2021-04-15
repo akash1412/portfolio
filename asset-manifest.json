@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/akash1412/portfolio/static/css/main.dd222ed8.chunk.css",
+    "main.js": "/akash1412/portfolio/static/js/main.209af553.chunk.js",
+    "main.js.map": "/akash1412/portfolio/static/js/main.209af553.chunk.js.map",
+    "runtime-main.js": "/akash1412/portfolio/static/js/runtime-main.2afba3cc.js",
+    "runtime-main.js.map": "/akash1412/portfolio/static/js/runtime-main.2afba3cc.js.map",
+    "static/css/2.fe38e6c6.chunk.css": "/akash1412/portfolio/static/css/2.fe38e6c6.chunk.css",
+    "static/js/2.58b6e41a.chunk.js": "/akash1412/portfolio/static/js/2.58b6e41a.chunk.js",
+    "static/js/2.58b6e41a.chunk.js.map": "/akash1412/portfolio/static/js/2.58b6e41a.chunk.js.map",
+    "static/js/3.b67f1d6a.chunk.js": "/akash1412/portfolio/static/js/3.b67f1d6a.chunk.js",
+    "static/js/3.b67f1d6a.chunk.js.map": "/akash1412/portfolio/static/js/3.b67f1d6a.chunk.js.map",
+    "index.html": "/akash1412/portfolio/index.html",
+    "static/css/2.fe38e6c6.chunk.css.map": "/akash1412/portfolio/static/css/2.fe38e6c6.chunk.css.map",
+    "static/css/main.dd222ed8.chunk.css.map": "/akash1412/portfolio/static/css/main.dd222ed8.chunk.css.map",
+    "static/js/2.58b6e41a.chunk.js.LICENSE.txt": "/akash1412/portfolio/static/js/2.58b6e41a.chunk.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.7556e6c4.worker.js": "/akash1412/portfolio/static/js/pdf.worker.entry.7556e6c4.worker.js",
+    "static/js/pdf.worker.entry.7556e6c4.worker.js.LICENSE.txt": "/akash1412/portfolio/static/js/pdf.worker.entry.7556e6c4.worker.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.7556e6c4.worker.js.map": "/akash1412/portfolio/static/js/pdf.worker.entry.7556e6c4.worker.js.map",
+    "static/media/img.0e1f074b.png": "/akash1412/portfolio/static/media/img.0e1f074b.png",
+    "static/media/js-quiz-draw.068956bf.png": "/akash1412/portfolio/static/media/js-quiz-draw.068956bf.png",
+    "static/media/pdf.34ebad41.pdf": "/akash1412/portfolio/static/media/pdf.34ebad41.pdf",
+    "static/media/ted-smrzr.deec1a3b.png": "/akash1412/portfolio/static/media/ted-smrzr.deec1a3b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2afba3cc.js",
+    "static/css/2.fe38e6c6.chunk.css",
+    "static/js/2.58b6e41a.chunk.js",
+    "static/css/main.dd222ed8.chunk.css",
+    "static/js/main.209af553.chunk.js"
+  ]
+}
