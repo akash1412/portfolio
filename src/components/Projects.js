@@ -54,6 +54,7 @@ const ProjectItems = [
 const Projects = () => {
 	return (
 		<Box
+			id='projects-section'
 			py='2.5rem'
 			px={["1rem"]}
 			w={["100%", "100%", "80%", "75%"]}
@@ -105,7 +106,7 @@ const Project = ({ id, imgSrc, title, about, links, stack }) => (
 				w={["100%", "100%", "100%", "45rem", "48rem"]}
 				d='flex'
 				flexDir='column'
-				order={id === 2 ? "-1" : "1"}
+				order={id === 2 ? [1, 1, 1, -1] : 1}
 				justifyContent='space-around'
 				className='childMargin'
 				mt={["2rem", "2rem", "2rem", "0"]}

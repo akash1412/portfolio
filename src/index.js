@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import { BrowserRouter, Route } from "react-router-dom";
+import Resume from "./components/Resume";
 
 const theme = extendTheme({
 	boxShadow: {
@@ -16,7 +18,7 @@ const theme = extendTheme({
 	colors: {
 		text: "#dadada",
 		primaryDark: "#127eb1",
-		primaryLight: "##089ECA",
+		primaryLight: "#089ECA",
 		background: "#212121",
 		navbar: "rgba(33,33,33,0.95)",
 	},
@@ -25,7 +27,10 @@ const theme = extendTheme({
 ReactDOM.render(
 	<React.StrictMode>
 		<ChakraProvider theme={theme}>
-			<App />
+			<BrowserRouter>
+				<Route exact path='/' component={App} />
+				<Route exact path='/resume' component={Resume} />
+			</BrowserRouter>
 		</ChakraProvider>
 	</React.StrictMode>,
 	document.getElementById("root")

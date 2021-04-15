@@ -5,6 +5,7 @@ const About = () => {
 		<Box
 			id='about-section'
 			px='.5rem'
+			py='2rem'
 			d='flex'
 			flexDir='column'
 			alignItems='center'>
